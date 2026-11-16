@@ -145,8 +145,8 @@ end
 ---@Example                 : CMM.LoadAirframeWeapons(Airbase.getByName("Kutasi"), 50, WeaponTBL)
 ---@ExampleDescription      : Sets the weapons inventory of the Kutasi airbase's warehouse to the quantities defined in the "DefaultWeapons" table, multiplied by 2.
 function CMM.LoadAirframeWeapons(AB,MaxAF,WeaponTBL, ClearUnlisted)
--- local _WeaponTBL = {["Clusters"] = 0, ["Rockets"] = true, ["AGMissiles"] = 2, ["AAMissiles"] = 0, ["Bombs"] = 5, ["GunPods"] = true, ["Pods"] = 2, ["Tanks"] = true}
---  CMM.LoadAirframeWeapons(Airbase.getByName("Anapa-Vityazevo"), 100, _WeaponTBL, true)
+-- local _WeaponTBL = {["Clusters"] = 0, ["Rockets"] = true, ["AGMissiles"] = 100, ["AAMissiles"] = false, ["Bombs"] = true, ["LBombs"] = 5, ["GBombs"] = 2, ["GunPods"] = true, ["Pods"] = 1, ["Tanks"] = true}
+-- CMM.LoadAirframeWeapons(Airbase.getByName("Anapa-Vityazevo"), 100, _WeaponTBL, true)
 
     local _unlimited = 1073741823
     local _maxMultiplier = 50
