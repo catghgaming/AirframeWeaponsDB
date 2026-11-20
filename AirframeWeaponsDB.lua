@@ -607,6 +607,59 @@ return {
             ["weapons.bombs.CBU_99"] = 10
         },
     },
+    ["Su-25"] = { -- Su-25
+        Rockets = {
+            ["weapons.nurs.C_13"] = 40, -- S-13OF Blast/Fragmentation
+            ["weapons.nurs.C_24"] = 8, -- S-24B
+            ["weapons.nurs.C_25"] = 8, -- S-25-OFM Hardened Target Penetrator
+            ["weapons.nurs.C_5"] = 256, -- S-5KO HEAT/Frag
+            ["weapons.nurs.C_8"] = 160, -- S-8KOM HEAT/Frag
+            ["weapons.nurs.C_8CM"] = 160, -- S-8TsM SM Orange
+            ["weapons.nurs.C_8OFP2"] = 160, -- S-8OFP2 MPP
+            ["weapons.nurs.C_8OM"] = 160, -- S-8OM IL
+            ["weapons.nurs.S-25-O"] = 8, -- S-25-O Fragmentation
+            ["weapons.nurs.S_5KP"] = 256, -- S-5KP HEAT/Frag
+            ["weapons.nurs.S_5M"] = 256, -- S-5M HE
+        },
+        AAMissiles = {
+            ["weapons.missiles.P_60"] = 2, -- R-60M
+            ["weapons.missiles.R-60"] = 2, -- R-60
+        },
+        AGMissiles = {
+            ["weapons.missiles.S_25L"] = 8, -- S-25L
+            ["weapons.missiles.X_25ML"] = 4, -- Kh-25ML (AS-10 Karen)
+            ["weapons.missiles.X_29L"] = 2, -- Kh-29L (AS-14 Kedge)
+        },
+        Bombs = {
+            ["weapons.bombs.BetAB_500"] = 8, -- BetAB-500
+            ["weapons.bombs.BetAB_500ShP"] = 8, -- BetAB-500ShP
+            ["weapons.bombs.FAB-250-M62"] = 8, -- FAB-250M-62 GP
+            ["weapons.bombs.FAB_100"] = 32, -- OFAB-100-120
+            ["weapons.bombs.FAB_250"] = 8, -- OFAB-250-270
+            ["weapons.bombs.FAB_500"] = 8, -- FAB-500M-62
+            ["weapons.bombs.SAB_100MN"] = 8, -- SAB-100MN
+            ["weapons.bombs.SAB_250_200"] = 8, -- SAB-250-200
+        },
+        Clusters = {
+            ["weapons.bombs.BKF_AO2_5RT"] = 64, -- BKF - 12 x AO-2.5RT
+            ["weapons.bombs.BKF_PTAB2_5KO"] = 64, -- BKF - 12 x PTAB-2.5KO
+            ["weapons.bombs.RBK_250"] = 8, -- RBK-250 PTAB-2.5M
+            ["weapons.bombs.RBK_250_275_AO_1SCH"] = 8, -- RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag
+            ["weapons.bombs.RBK_500AO"] = 8, -- RBK-500-255 PTAB-10-5
+            ["weapons.bombs.RBK_500U"] = 8, -- RBK-500 PTAB-1M
+            ["weapons.bombs.RBK_500U_OAB_2_5RT"] = 8, -- RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag
+        },
+        Pods = {
+            ["weapons.containers.R-73U"] = 2, -- Smoke Generator - red
+            ["weapons.containers.SPS-141"] = 1, -- SPS-141 - ECM Jamming Pod
+        },
+        GunPods = {
+            ["weapons.containers.{E92CBFE5-C153-11d8-9897-000476191836}"] = 4, -- SPPU-22-1 - 2 x 23mm  GSh-23L Autocannon Pod
+        },
+        Tanks = {
+            ["weapons.droptanks.PTB-800"] = 4, -- Fuel tank 800L Wing
+        },
+    },
     ["Su-25T"] = {
         Rockets = {
             ["weapons.nurs.S-5M"] = 256,            -- S-5-M
