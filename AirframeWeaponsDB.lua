@@ -478,6 +478,7 @@ return {
             ["weapons.bombs.CBU_105"] = 8
         },
     },
+    -- F-16C Block 50 weapons database: review in progress
     ["F-16C_50"] = {
         Rockets = {
             ["weapons.nurs.HYDRA_70_M151"] = 42,    --M151 HE
