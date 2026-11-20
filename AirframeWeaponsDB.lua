@@ -794,6 +794,17 @@ return {
             ["weapons.containers.SORBCIJA_R"] = 1, -- L005 Sorbtsiya ECM pod (right)
         },
     },
+    ["MiG-15bis"] = { -- MiG-15bis
+        Bombs = {
+            ["weapons.bombs.FAB_100M"] = 2, -- FAB-100M - 100kg GP Bomb LD
+            ["weapons.bombs.FAB_50"] = 2, -- FAB-50 - 50kg GP Bomb LD
+        },
+        Tanks = {
+            ["weapons.droptanks.PTB300_MIG15"] = 2, -- Fuel Tank 300 liters
+            ["weapons.droptanks.PTB400_MIG15"] = 2, -- Fuel Tank 400 liters
+            ["weapons.droptanks.PTB600_MIG15"] = 2, -- Fuel Tank 600 liters
+        },
+    },
      ["MiG-19P"] = { -- MiG-19P
         Rockets = {
             ["weapons.nurs.S_5M"] = 32, -- S-5M HE
