@@ -794,6 +794,57 @@ return {
             ["weapons.containers.SORBCIJA_R"] = 1, -- L005 Sorbtsiya ECM pod (right)
         },
     },
+    ["MiG-21Bis"] = { -- MiG-21Bis
+        Rockets = {
+            ["weapons.nurs.S-24A"] = 4, -- S-24A (21) - 180 kg, cumulative unguided rocket
+            ["weapons.nurs.S-24B"] = 4, -- S-24B (21) - 180 kg, fragmented unguided rocket
+            ["weapons.nurs.S-5M"] = 96, -- S-5M - unguided rocket 57mm
+        },
+        AAMissiles = {
+            ["weapons.missiles.P_60"] = 6, -- R-60M
+            ["weapons.missiles.R-13M"] = 4, -- R-13M
+            ["weapons.missiles.R-13M1"] = 4, -- R-13M1
+            ["weapons.missiles.R-3R"] = 4, -- R-3R
+            ["weapons.missiles.R-3S"] = 4, -- R-3S
+            ["weapons.missiles.R-55"] = 2, -- R-55 - AAM, IR guided
+            ["weapons.missiles.R-60"] = 6, -- R-60
+            ["weapons.missiles.RS2US"] = 4, -- RS2US - AAM, beam-rider
+        },
+        AGMissiles = {
+            ["weapons.missiles.Kh-66_Grom"] = 2, -- Kh-66 Grom (21) - AGM, radar guided
+        },
+        Bombs = {
+            ["weapons.bombs.BetAB_500"] = 2, -- BetAB-500
+            ["weapons.bombs.BetAB_500ShP"] = 2, -- BetAB-500ShP
+            ["weapons.bombs.FAB-250M54TU"] = 2, -- FAB-250 M54 TU - 235 kg, bomb, parachute
+            ["weapons.bombs.FAB_100"] = 10, -- OFAB-100-120
+            ["weapons.bombs.FAB_250"] = 4, -- OFAB-250-270
+            ["weapons.bombs.FAB_500"] = 2, -- FAB-500M-62
+            ["weapons.bombs.OFAB-100-120TU"] = 8, -- OFAB 100-120 TU - 123 kg, bomb, parachute
+            ["weapons.bombs.RN-24"] = 1, -- RN-24 - 470kg, nuclear bomb, free fall
+            ["weapons.bombs.RN-28"] = 1, -- RN-28 - 260 kg, nuclear bomb, free fall
+            ["weapons.bombs.SAB_100MN"] = 4, -- SAB-100MN
+        },
+        Clusters = {
+            ["weapons.bombs.BL_755"] = 2, -- BL755
+            ["weapons.bombs.RBK_250"] = 4, -- RBK-250 PTAB-2.5M
+            ["weapons.bombs.RBK_500AO"] = 2, -- RBK-500-255 PTAB-10-5
+        },
+        Pods = {
+            ["weapons.containers.ASO-2"] = 1, -- ASO-2 - countermeasures pod
+            ["weapons.containers.SPRD-99"] = 1, -- SPRD-99
+            ["weapons.containers.SPS-141-100"] = 1, -- SPS-141-100 (21) - jamming and countermeasures pod
+            ["weapons.containers.{MIG21_SMOKE_WHITE}"] = 1, -- Smoke - white - 21
+        },
+        GunPods = {
+            ["weapons.containers.{UPK-23-250 MiG-21}"] = 2, -- UPK-23-250 - gun pod
+        },
+        Tanks = {
+            ["weapons.droptanks.PTB-490-MIG21"] = 2, -- Fuel Tank 490 L (21)
+            ["weapons.droptanks.PTB-490C-MIG21"] = 1, -- Fuel Tank 490 L Central (21)
+            ["weapons.droptanks.PTB-800-MIG21"] = 1, -- Fuel Tank 800 L (21)
+        },
+    },
     ["MiG-29A"] = { -- MiG-29A Fulcrum
         Rockets = {
             ["weapons.nurs.C_24"] = 4, -- S-24B
