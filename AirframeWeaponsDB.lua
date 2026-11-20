@@ -794,6 +794,25 @@ return {
             ["weapons.containers.SORBCIJA_R"] = 1, -- L005 Sorbtsiya ECM pod (right)
         },
     },
+     ["MiG-19P"] = { -- MiG-19P
+        Rockets = {
+            ["weapons.nurs.S_5M"] = 32, -- S-5M HE
+        },
+        Bombs = {
+            ["weapons.bombs.FAB_100M"] = 2, -- FAB-100M - 100kg GP Bomb LD
+            ["weapons.bombs.FAB_250"] = 2, -- OFAB-250-270
+            ["weapons.bombs.FAB_50"] = 2, -- FAB-50 - 50kg GP Bomb LD
+        },
+        AAMissiles = {
+            ["weapons.missiles.R-3S"] = 2, -- K-13A (R-3S)
+        },       
+        Pods = {
+            ["weapons.containers.R-73U"] = 2, -- Smoke Generator - red
+        },
+        Tanks = {
+            ["weapons.droptanks.PTB760_MIG19"] = 2, -- Fuel Tank 760 liters
+        },
+    },
     ["MiG-21Bis"] = { -- MiG-21Bis
         Rockets = {
             ["weapons.nurs.S-24A"] = 4, -- S-24A (21) - 180 kg, cumulative unguided rocket
