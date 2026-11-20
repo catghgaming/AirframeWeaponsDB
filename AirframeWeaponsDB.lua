@@ -741,4 +741,45 @@ return {
             ["weapons.containers.SORBCIJA_R"] = 1, -- L005 Sorbtsiya ECM pod (right)
         },
     },
+
+    ["MiG-29A"] = { -- MiG-29A Fulcrum
+        Rockets = {
+            ["weapons.nurs.C_24"] = 4, -- S-24B
+            ["weapons.nurs.C_8"] = 80, -- S-8KOM
+            ["weapons.nurs.C_8CM"] = 80, -- S-8TsM
+            ["weapons.nurs.C_8OFP2"] = 80, -- S-8OFP2
+        },
+        AAMissiles = {
+            ["weapons.missiles.P_27P"] = 2, -- R-27R
+            ["weapons.missiles.P_27PE"] = 2, -- R-27ER
+            ["weapons.missiles.P_27T"] = 2, -- R-27T
+            ["weapons.missiles.P_27TE"] = 2, -- R-27ET
+            ["weapons.missiles.P_60"] = 6, -- R-60M
+            ["weapons.missiles.P_73"] = 6, -- R-73
+            ["weapons.missiles.R-60"] = 6, -- R-60
+        },
+        Bombs = {
+            ["weapons.bombs.BetAB_500"] = 4,
+            ["weapons.bombs.BetAB_500ShP"] = 4,
+            ["weapons.bombs.FAB-250-M62"] = 4,
+            ["weapons.bombs.FAB_250"] = 4,
+            ["weapons.bombs.FAB_500"] = 4,
+        },
+        Clusters = {
+            ["weapons.bombs.BKF_AO2_5RT"] = 32,
+            ["weapons.bombs.BKF_PTAB2_5KO"] = 32,
+            ["weapons.bombs.RBK_250"] = 4,
+            ["weapons.bombs.RBK_250_275_AO_1SCH"] = 4,
+            ["weapons.bombs.RBK_500AO"] = 4,
+            ["weapons.bombs.RBK_500U"] = 4,
+        },
+        Pods = {
+            ["weapons.containers.R-73U"] = 7, -- Red smoke generator
+        },
+        Tanks = {
+            ["weapons.droptanks.PTB-1150-29"] = 2,
+            ["weapons.droptanks.PTB-1500"] = 1,
+        },
+    },
+
 }
