@@ -2,8 +2,6 @@
 -- Initial Version 0.1oz
 -- Creator OzDeaDMeaT
 ------------------------------------
-CMM = {}
-------------------------------------
 ---@Function CMM.IsWarehouse
 ---@FunctionDescription     : Checks whether the supplied table represents a valid DCS warehouse object.
 ---@Syntax                  : CMM.IsWarehouse(<TBL>)
@@ -145,9 +143,8 @@ end
 ---@Example                 : CMM.LoadAirframeWeapons(Airbase.getByName("Kutasi"), 50, WeaponTBL)
 ---@ExampleDescription      : Sets the weapons inventory of the Kutasi airbase's warehouse to the quantities defined in the "DefaultWeapons" table, multiplied by 2.
 function CMM.LoadAirframeWeapons(AB,MaxAF,WeaponTBL, ClearUnlisted)
--- local _WeaponTBL = {["Clusters"] = 0, ["Rockets"] = true, ["AGMissiles"] = 100, ["AAMissiles"] = false, ["Bombs"] = true, ["LBombs"] = 5, ["GBombs"] = 2, ["GunPods"] = true, ["Pods"] = 1, ["Tanks"] = true}
--- CMM.LoadAirframeWeapons(Airbase.getByName("Anapa-Vityazevo"), 100, _WeaponTBL, true)
-
+-- local _WeaponTBL = {["Clusters"] = 0, ["Rockets"] = true, ["AGMissiles"] = 2, ["AAMissiles"] = 0, ["Bombs"] = 5, ["GunPods"] = true, ["Pods"] = 2, ["Tanks"] = true}
+--  CMM.LoadAirframeWeapons(Airbase.getByName("Anapa-Vityazevo"), 100, _WeaponTBL, true)
     local _unlimited = 1073741823
     local _maxMultiplier = 50
     local _maxAF = MaxAF or _unlimited
@@ -252,8 +249,12 @@ function CMM.LoadAirframeWeapons(AB,MaxAF,WeaponTBL, ClearUnlisted)
                 _value = _unlimited
             end
             _value = math.floor(_value)
-            _warehouse:setItem(_item, _value)
-            env.info("CMM.LoadAirframeWeapons: Item '" .. tostring(_item) .. "' quantity set to " .. tostring(_value))
+            -- local _ok = CMM.SetItem(_item, _value)
+            -- if(_ok ~= true) then
+            --     env.warning("CMM.LoadAirframeWeapons: Failed to set item '" .. tostring(_item) .. "' via CMM.setItem, falling back to DCS API warehouse")
+                _warehouse:setItem(_item, _value)
+            -- end
+            -- env.info("CMM.LoadAirframeWeapons: Item '" .. tostring(_item) .. "' quantity set to " .. tostring(_value))
         end
     end
 end
