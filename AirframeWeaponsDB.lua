@@ -702,4 +702,43 @@ return {
             ["weapons.containers.SORBCIJA_R"] = 1, -- L005 Sorbtsiya ECM pod (right)
         },
     },
+    ["Su-33"] = { -- Su-33
+        Rockets = {
+            ["weapons.nurs.C_13"] = 30, -- S-13OF Blast/Fragmentation
+            ["weapons.nurs.C_25"] = 6, -- S-25-OFM Hardened Target Penetrator
+            ["weapons.nurs.C_8"] = 120, -- S-8KOM HEAT/Frag
+            ["weapons.nurs.C_8CM"] = 120, -- S-8TsM SM Orange
+            ["weapons.nurs.C_8OFP2"] = 120, -- S-8OFP2 MPP
+            ["weapons.nurs.S-25-O"] = 6, -- S-25-O Fragmentation
+        },
+        AAMissiles = {
+            ["weapons.missiles.P_27P"] = 8, -- R-27R
+            ["weapons.missiles.P_27PE"] = 8, -- R-27ER
+            ["weapons.missiles.P_27T"] = 2, -- R-27T
+            ["weapons.missiles.P_27TE"] = 2, -- R-27ET
+            ["weapons.missiles.P_73"] = 6, -- R-73 (AA-11 Archer)
+        },
+        Bombs = {
+            ["weapons.bombs.BetAB_500"] = 8, -- BetAB-500
+            ["weapons.bombs.FAB-250-M62"] = 10, -- FAB-250M-62 GP
+            ["weapons.bombs.FAB_100"] = 36, -- OFAB-100-120
+            ["weapons.bombs.FAB_250"] = 30, -- OFAB-250-270
+            ["weapons.bombs.FAB_500"] = 8, -- FAB-500M-62
+            ["weapons.bombs.SAB_100MN"] = 10, -- SAB-100MN
+        },
+        Clusters = {
+            ["weapons.bombs.BKF_AO2_5RT"] = 56, -- BKF - 12 x AO-2.5RT
+            ["weapons.bombs.BKF_PTAB2_5KO"] = 56, -- BKF - 12 x PTAB-2.5KO
+            ["weapons.bombs.RBK_250"] = 8, -- RBK-250 PTAB-2.5M
+            ["weapons.bombs.RBK_250_275_AO_1SCH"] = 8, -- RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag
+            ["weapons.bombs.RBK_500AO"] = 8, -- RBK-500-255 PTAB-10-5
+            ["weapons.bombs.RBK_500U"] = 8, -- RBK-500 PTAB-1M
+            ["weapons.bombs.RBK_500U_OAB_2_5RT"] = 8, -- RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag
+        },
+        Pods = {
+            ["weapons.containers.R-73U"] = 11, -- Smoke Generator - red
+            ["weapons.containers.SORBCIJA_L"] = 1, -- L005 Sorbtsiya ECM pod (left)
+            ["weapons.containers.SORBCIJA_R"] = 1, -- L005 Sorbtsiya ECM pod (right)
+        },
+    },
 }
