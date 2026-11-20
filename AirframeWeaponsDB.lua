@@ -805,6 +805,7 @@ return {
         },
         AAMissiles = {
             ["weapons.missiles.R-3S"] = 2, -- K-13A (R-3S)
+            --The K-13A uses the weapons.missiles.R-3S identifier traced through the DCS Lua Datamine.
         },       
         Pods = {
             ["weapons.containers.R-73U"] = 2, -- Smoke Generator - red
