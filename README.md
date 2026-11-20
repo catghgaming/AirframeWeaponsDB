@@ -11,9 +11,20 @@ Core Goals:
 2. The number of weapons is the maximum amount of that specific weapon the airframe could carry.
 3. If there is interest, list the AI Airframes and the types of weapons they can carry also.
 
-## Mission Installation
-WIP
+## DCS Mission Scripting File tweak
+In your DCS World/Scripts directory place the MissionScripting.lua from this repo. OR Comment out Line 18
 
+	--sanitizeModule('lfs')
+
+## Mission Installation
+Once you have the modified MissionScripting.lua file. Make sure you restart DCS so that the changes work correctly.
+Take a look at the Demo Mission, there is a single trigger to initialise the code, please check that
+```
+--- START COPY
+AirframeWeaponsDB_PATH = lfs.writedir().. "AirframeWeaponsDB\\"
+dofile(AirframeWeaponsDB_PATH .. "init.lua")
+--- END COPY
+```
 ## Glossary / List of Terms
 
 - URN == Unique Resource Names, these are the weapon names you can add into an Airbase

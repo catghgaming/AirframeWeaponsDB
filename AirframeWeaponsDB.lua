@@ -19,7 +19,7 @@ return {
             ["weapons.bombs.OH58D_White_Smoke_Grenade"] = 3,
             ["weapons.bombs.OH58D_Yellow_Smoke_Grenade"] = 3,
             },
-        Gunpods = {
+        GunPods = {
             ["weapons.containers.OH58D_M3P_L100"] = 1,
             ["weapons.containers.OH58D_M3P_L200"] = 1,
             ["weapons.containers.OH58D_M3P_L300"] = 1,
@@ -51,7 +51,7 @@ return {
         },
     },
     ["CH-47Fbl1"] = {
-        Gunpods = {
+        GunPods = {
             ["weapons.containers.{CH47_AFT_M240H}"] = 1,
             ["weapons.containers.{CH47_AFT_M3M}"] = 1,
             ["weapons.containers.{CH47_AFT_M60D}"] = 1,
@@ -60,7 +60,7 @@ return {
             ["weapons.containers.{CH47_PORT_M60D}"] = 1,
             ["weapons.containers.{CH47_STBD_M134D}"] = 1,
             ["weapons.containers.{CH47_STBD_M240H}"] = 1,
-            ["weapons.containers.{CH47_STBD_M60D}"] = 1
+            ["weapons.containers.{CH47_STBD_M60D}"] = 1,
             -- ["weapons.gunmounts.{CH47_AFT_M240H}"] = 1,
             -- ["weapons.gunmounts.{CH47_AFT_M3M}"] = 1,
             -- ["weapons.gunmounts.{CH47_AFT_M60D}"] = 1,
@@ -77,7 +77,7 @@ return {
             ["weapons.nurs.HYDRA_70_MK1"] = 14,
             ["weapons.nurs.HYDRA_70_M151"] = 14
         },
-        Gunpods = {
+        GunPods = {
             ["weapons.containers.M134_L"] = 1,
             ["weapons.containers.M134_R"] = 1,
             ["weapons.containers.M134_SIDE_L"] = 1,
@@ -109,7 +109,7 @@ return {
             ["weapons.bombs.FAB_500"] = 4,
             ["weapons.bombs.FAB_250"] = 4
         },
-        Gunpods = {
+        GunPods = {
             ["weapons.containers.{05544F1A-C39C-466b-BC37-5BD1D52E57BB}"] = 4
         },
         Tanks = {
@@ -145,7 +145,7 @@ return {
             ["weapons.bombs.FAB_100"] = 4,
             ["weapons.bombs.FAB_250"] = 4
         },
-        Gunpods = {
+        GunPods = {
             ["weapons.containers.KORD_12_7_MI24_L"] = 1,
             ["weapons.containers.KORD_12_7_MI24_R"] = 1,
             -- ["weapons.gunmounts.KORD_12_7_MI24_L"] = 1,
@@ -177,7 +177,7 @@ return {
             ["weapons.bombs.FAB_100"] = 6,
             ["weapons.bombs.FAB_250"] = 6
             },
-        Gunpods = {
+        GunPods = {
             ["weapons.containers.GUV_VOG"] = 2,     -- 30mm Grenade Launcher
             ["weapons.containers.GUV_YakB_GSHP"] = 2,   -- 1x 12.7mm , 2x 7.62 Rotary HMG
             ["weapons.containers.{05544F1A-C39C-466b-BC37-5BD1D52E57BB}"] = 1,  -- UPK-23-250 Autocannon Pod
@@ -203,7 +203,7 @@ return {
             ["weapons.containers.IRDeflector"] = 1,
             ["weapons.containers.FAS"] = 1
         },
-        Gunpods = {
+        GunPods = {
             ["weapons.containers.{FN_HMP400_100}"] = 2,
             ["weapons.containers.{FN_HMP400_200}"] = 2,
             ["weapons.containers.{FN_HMP400}"] = 2,
@@ -643,7 +643,7 @@ return {
             ["weapons.containers.KINGAL"] = 1,      -- Mercury LLTV Pod
             ["weapons.containers.MPS-410"] = 2      -- MPS-410 Pod
         },
-        Gunpods = {
+        GunPods = {
             ["weapons.containers.{E92CBFE5-C153-11d8-9897-000476191836}"] = 4, -- SPPU-22-1 - 2 x 23mm  GSh-23L Autocannon Pod
         },
         Tanks = {

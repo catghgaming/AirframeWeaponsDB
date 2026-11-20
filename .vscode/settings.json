@@ -1,0 +1,8 @@
+{
+    "Lua.diagnostics.disable": [
+        "undefined-global",
+        "param-type-mismatch",
+        "need-check-nil",
+        "missing-return"
+    ]
+}
