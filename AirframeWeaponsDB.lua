@@ -92,7 +92,35 @@ return {
             -- ["weapons.gunmounts.M60_SIDE_R"] = 1,
         }
     },
-    ["Ka-50_3"] = {
+    ["Ka-50"] = { -- Ka-50
+        Rockets = {
+            ["weapons.nurs.C_13"] = 20, -- S-13OF Blast/Fragmentation
+            ["weapons.nurs.C_8"] = 80, -- S-8KOM HEAT/Frag
+            ["weapons.nurs.C_8CM"] = 80, -- S-8TsM SM Orange
+            ["weapons.nurs.C_8OFP2"] = 80, -- S-8OFP2 MPP
+            ["weapons.nurs.C_8OM"] = 80, -- S-8OM IL
+        },
+        AGMissiles = {
+            ["weapons.missiles.Vikhr_M"] = 12, -- 9M127 Vikhr
+            ["weapons.missiles.X_25ML"] = 2, -- Kh-25ML (AS-10 Karen)
+        },
+        Bombs = {
+            ["weapons.bombs.FAB-250-M62"] = 4, -- FAB-250M-62 GP
+            ["weapons.bombs.FAB_250"] = 4, -- OFAB-250-270
+            ["weapons.bombs.FAB_500"] = 4, -- FAB-500M-62
+        },
+        Clusters = {
+            ["weapons.bombs.BKF_AO2_5RT"] = 32, -- BKF - 12 x AO-2.5RT
+            ["weapons.bombs.BKF_PTAB2_5KO"] = 32, -- BKF - 12 x PTAB-2.5KO
+        },
+        GunPods = {
+            ["weapons.containers.{05544F1A-C39C-466b-BC37-5BD1D52E57BB}"] = 4, -- UPK-23-250 - 2 x 23mm  GSh-23L Autocannon Pod
+        },
+        Tanks = {
+            ["weapons.droptanks.PTB-450"] = 4, -- Fuel tank PTB-450
+        },
+    },
+    ["Ka-50_3"] = { -- Ka-50 III
         Rockets = {
             ["weapons.nurs.C_8"] = 80,
             ["weapons.nurs.C_8OFP2"] = 80,
