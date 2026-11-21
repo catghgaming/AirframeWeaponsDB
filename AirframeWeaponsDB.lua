@@ -92,6 +92,56 @@ return {
             -- ["weapons.gunmounts.M60_SIDE_R"] = 1,
         }
     },
+    -- The JF17 I made a lot of edits to the Claude inventory.  Used injection to verify C701 series of bombs identifier.
+    -- Added Rockeyes
+    ["JF-17"] = { -- JF-17 Thunder
+        Rockets = {
+            ["weapons.nurs.HYDRA_70_MK5"] = 28, -- Hydra 70 Mk 5 HEAT
+            ["weapons.nurs.Rkt_90-1_HE"] = 32, -- 90-1 90mm Rocket HE
+            ["weapons.missiles.BRM-1_90MM"] = 32, -- BRM-1 laser-guided rocket
+        },
+        AAMissiles = {
+            ["weapons.missiles.PL-5EII"] = 4, -- PL-5EII
+            ["weapons.missiles.SD-10"] = 4, -- SD-10A
+        },
+        AGMissiles = {
+            ["weapons.missiles.C_701IR"] = 2, -- C-701IR
+            ["weapons.missiles.C_701T"] = 2, -- C-701T
+            ["weapons.missiles.LD-10"] = 4, -- LD-10
+        },
+        Bombs = {
+            ["weapons.bombs.Mk_82"] = 6, -- Mk-82
+            ["weapons.bombs.MK_82SNAKEYE"] = 6, -- Mk-82 Snakeye
+            ["weapons.bombs.Mk_83"] = 5, -- Mk-83
+            ["weapons.bombs.Mk_84"] = 3, -- Mk-84
+            ["weapons.bombs.Type_200A"] = 6, -- Type-200A
+        },
+        LBombs = {
+            ["weapons.bombs.GBU_10"] = 3, -- GBU-10
+            ["weapons.bombs.GBU_12"] = 6, -- GBU-12
+            ["weapons.bombs.GBU_16"] = 3, -- GBU-16
+        },
+        GBombs = {
+            ["weapons.bombs.LS_6_100"] = 4, -- LS-6-100
+            ["weapons.missiles.LS_6"] = 4, -- LS-6-250
+            ["weapons.missiles.LS_6_500"] = 4, -- LS-6-500
+        },
+        Clusters = {
+            ["weapons.bombs.ROCKEYE"] = 6, -- Mk-20 Rockeye
+        },
+        Pods = {
+            ["weapons.containers.dlpod_akg"] = 1, -- AKG data-link pod
+            ["weapons.containers.kg600"] = 1, -- KG-600 ECM pod
+            ["weapons.containers.pl5eii"] = 5, -- Red smoke generator
+            ["weapons.containers.wmd7"] = 1, -- WMD7 targeting pod
+        },
+        Tanks = {
+            ["weapons.droptanks.1100L Tank"] = 2,
+            ["weapons.droptanks.1100L Tank Empty"] = 2,
+            ["weapons.droptanks.800L Tank"] = 3,
+            ["weapons.droptanks.800L Tank Empty"] = 3,
+        },
+    },
     ["J-11A"] = { -- J-11A
         Rockets = {
             ["weapons.nurs.C_13"] = 20, -- S-13OF Blast/Fragmentation
