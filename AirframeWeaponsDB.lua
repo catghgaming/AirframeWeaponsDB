@@ -1005,4 +1005,15 @@ return {
             ["weapons.droptanks.PTB-1500"] = 1, -- Fuel tank 1400L
         },
     },
+    ["I-16"] = { -- I-16
+        Rockets = {
+            ["weapons.nurs.RS-82"] = 6, -- RS-82
+        },
+        Bombs = {
+            ["weapons.bombs.FAB_100SV"] = 2, -- FAB-100SV
+        },
+        Tanks = {
+            ["weapons.droptanks.i16_eft"] = 2, -- I-16 External Fuel Tank
+        },
+    },
 }
