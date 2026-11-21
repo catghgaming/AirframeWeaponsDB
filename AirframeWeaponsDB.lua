@@ -236,6 +236,58 @@ return {
             ["weapons.nurs.C_13"] = 4
         },
     },
+    ["L-39C"] = { -- L-39C
+        Rockets = {
+            ["weapons.nurs.C_5"] = 32, -- S-5KO HEAT/Frag
+            ["weapons.nurs.S_5KP"] = 32, -- S-5KP HEAT/Frag
+            ["weapons.nurs.S_5M"] = 32, -- S-5M HE
+        },
+        AAMissiles = {
+            ["weapons.missiles.R-3S"] = 2, -- R-3S
+        },
+        Bombs = {
+            ["weapons.bombs.FAB_100"] = 2, -- OFAB-100-120
+            ["weapons.bombs.P-50T"] = 2, -- P-50T - 50kg Practice Bomb LD
+            ["weapons.bombs.SAB_100MN"] = 2, -- SAB-100MN
+        },
+        Pods = {
+            ["weapons.containers.R-73U"] = 2, -- Smoke Generator - red            
+            ["weapons.containers.{INV-SMOKE-RED}"] = 1, -- Smoke Generator - red            
+        },
+        Tanks = {
+            ["weapons.droptanks.FuelTank_150L"] = 2, -- Fuel Tank 150 liters
+        },
+    }, 
+    ["L-39ZA"] = { -- L-39ZA
+        Rockets = {
+            ["weapons.nurs.C_5"] = 64, -- S-5KO HEAT/Frag
+            ["weapons.nurs.S_5KP"] = 64, -- S-5KP HEAT/Frag
+            ["weapons.nurs.S_5M"] = 64, -- S-5M HE
+        },
+        AAMissiles = {
+            ["weapons.missiles.P_60"] = 2, -- R-60M
+            ["weapons.missiles.R-3S"] = 2, -- R-3S
+        },
+        Bombs = {
+            ["weapons.bombs.FAB-250-M62"] = 4, -- FAB-250M-62 GP
+            ["weapons.bombs.FAB_100"] = 4, -- OFAB-100-120
+            ["weapons.bombs.FAB_250"] = 4, -- OFAB-250-270
+            ["weapons.bombs.OFAB-100 Jupiter"] = 8, -- OFAB-100 Jupiter - 100kg GP Bomb HD
+            -- ["weapons.bombs.P-50T"] = 4, -- P-50T - 50kg Practice Bomb LD
+            ["weapons.bombs.SAB_100MN"] = 4, -- SAB-100MN
+        },
+        Pods = {
+            ["weapons.containers.R-73U"] = 2, -- Smoke Generator - red
+            ["weapons.containers.{INV-SMOKE-RED}"] = 1, -- Smoke Generator - red
+        },
+        GunPods = {
+            ["weapons.containers.{PK-3}"] = 4, -- PK-3 - 7.62mm GPMG
+        },
+        Tanks = {
+            ["weapons.droptanks.FuelTank_150L"] = 2, -- Fuel Tank 150 liters
+            ["weapons.droptanks.FuelTank_350L"] = 2, -- Fuel Tank 350 liters
+        },
+    },
     ["Mi-24P"] = {
         Rockets = {
             ["weapons.nurs.C_24"] = 4,
@@ -1130,5 +1182,6 @@ return {
         Tanks = {
             ["weapons.droptanks.i16_eft"] = 2, -- I-16 External Fuel Tank
         },
+    
     },
 }
