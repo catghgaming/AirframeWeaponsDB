@@ -452,7 +452,6 @@ return {
             ["weapons.nurs.FFAR Mk5 HEAT"] = 285, -- Mk 4 FFAR Mk 5 HEAT
             ["weapons.nurs.Zuni_127"] = 48, -- Zuni Mk 24 Mod 1 HE
         },
-
         AAMissiles = {
             ["weapons.missiles.AIM-9E"] = 4, -- AIM-9E
             ["weapons.missiles.AIM-9J"] = 4, -- AIM-9J
@@ -469,7 +468,6 @@ return {
             ["weapons.missiles.HB-AIM-7E-2"] = 4, -- AIM-7E-2
             ["weapons.missiles.AIM-7F"] = 4, -- AIM-7F (added)
         },
-
         AGMissiles = {
             ["weapons.missiles.AGM_12A"] = 4, -- AGM-12A
             ["weapons.missiles.AGM_12B"] = 4, -- AGM-12B
@@ -481,14 +479,13 @@ return {
             ["weapons.missiles.AGM_65D"] = 6, -- AGM-65D
             ["weapons.missiles.AGM_65G"] = 2, -- AGM-65G
         },
-
         Bombs = {
             ["weapons.bombs.BDU_33"] = 24, -- BDU-33
             ["weapons.bombs.BDU_50HD"] = 24, -- BDU-50HD
             ["weapons.bombs.BDU_50LD"] = 24, -- BDU-50LD
-            ["weapons.bombs.BLU-49/B"] = 720, -- BLU-49/B, 18 x 40
+            ["weapons.bombs.BLU-49/B"] = 18, -- CBU-38/A: 18 canisters x 40 BLU-49/B bomblets
             ["weapons.bombs.Durandal"] = 12, -- BLU-107/B Durandal
-            ["weapons.bombs.LUU_2B"] = 96, -- LUU-2B, 6 x (2 x 8); verify warehouse accounting
+            ["weapons.bombs.LUU_2B"] = 48, -- 6 SUU-25 pods x 8 LUU-2B flares - SUU-25 pod not in warehouse but LUU-2B is
             ["weapons.bombs.M_117"] = 17, -- M117
             ["weapons.bombs.Mk_81"] = 24, -- Mk-81
             ["weapons.bombs.Mk_82"] = 24, -- Mk-82
@@ -500,53 +497,45 @@ return {
             ["weapons.bombs.SAMP250HD"] = 15, -- SAMP-250 HD
             ["weapons.bombs.SAMP250LD"] = 15, -- SAMP-250 LD
         },
-
         LBombs = {
             ["weapons.bombs.BDU_45LGB"] = 6, -- BDU-45 LGB
             ["weapons.bombs.GBU_10"] = 4, -- GBU-10
             ["weapons.bombs.GBU_12"] = 6, -- GBU-12
             ["weapons.bombs.GBU_24"] = 4, -- GBU-24A/B
         },
-
         GBombs = {
             ["weapons.bombs.AGM_62"] = 2, -- AGM-62 Walleye II
             ["weapons.bombs.AGM_62_I"] = 4, -- AGM-62 Walleye I
             ["weapons.bombs.GBU_8_B"] = 4, -- GBU-8/B HOBOS
         },
-
         Clusters = {
             ["weapons.bombs.BL_755"] = 13, -- BL755
-            ["weapons.bombs.BLU-18/B_GROUP"] = 4800, -- CBU-7/A: 4 dispensers x 1,200 BLU-18/B bomblets
-            ["weapons.bombs.BLU-3_GROUP"] = 1805,  -- CBU-2/A: 5 dispensers x 361 BLU-3 bomblets
-            ["weapons.bombs.BLU-3B_GROUP"] = 2090, -- CBU-2B/A: 5 dispensers x 418 BLU-3B bomblets
-            ["weapons.bombs.BLU-4B_GROUP"] = 2565, -- CBU-1A/A: 5 dispensers x 513 BLU-4B bomblets
+            ["weapons.bombs.BLU-3_GROUP"] = 5,  -- CBU-2/A: 5 dispensers x 361 BLU-3 bomblets
+            ["weapons.bombs.BLU-3B_GROUP"] = 5, -- CBU-2B/A: 5 dispensers x 418 BLU-3B bomblets
+            ["weapons.bombs.BLU-4B_GROUP"] = 5, -- CBU-1A/A: 5 dispensers x 513 BLU-4B bomblets
             ["weapons.bombs.CBU_52B"] = 10, -- CBU-52B
             ["weapons.bombs.CBU_87"] = 14, -- CBU-87
             ["weapons.bombs.ROCKEYE"] = 12, -- Mk-20 Rockeye
         },
-
         Pods = {
             ["weapons.containers.AIM-9S"] = 4, -- Smokewinder Red
             ["weapons.containers.ais-pod-t50"] = 4, -- ACMI Pod
             ["weapons.containers.ALQ-131"] = 3, -- ALQ-131 ECM
-            ["weapons.containers.GD_F100_SUU-13"] = 4, -- CBU-7/A: 4 dispensers, 1,200 BLU-18/B bomblets each
+            ["weapons.containers.GD_F100_SUU-13"] = 18, -- CBU-7/A: 21,600 Bomblets
             ["weapons.containers.HB_ALE_40_0_0"] = 1, -- ALE-40 Empty
             ["weapons.containers.HB_ALE_40_0_120"] = 1, -- ALE-40 120 Chaff
             ["weapons.containers.HB_ALE_40_15_90"] = 1, -- ALE-40 15 Flares + 90 Chaff
             ["weapons.containers.HB_ALE_40_30_0"] = 1, -- ALE-40 30 Flares
             ["weapons.containers.HB_ALE_40_30_60"] = 1, -- ALE-40 30 Flares + 60 Chaff
-            ["weapons.containers.HB_ORD_MER"] = 1, -- SUU-25 target marker MER
             ["weapons.containers.HB_ORD_Missile_Well_Adapter"] = 1, -- Pave Spike rack
             ["weapons.containers.HB_ORD_Pave_Spike"] = 1, -- Pave Spike
             ["weapons.containers.HB_ORD_Pave_Spike_Fast"] = 1, -- Pave Spike Fast/Smart Track
         },
-
         GunPods = {
             ["weapons.containers.{GPU_5_POD}"] = 1, -- GPU-5
             ["weapons.containers.{SUU_23_POD_Centerline}"] = 1, -- SUU-23 Centerline
             ["weapons.containers.{SUU_23_POD_Wing}"] = 2, -- SUU-23 Wing
         },
-
         Tanks = {
             ["weapons.droptanks.HB_F-4E_EXT_Center_Fuel_Tank"] = 1, -- Centerline 600 gal
             ["weapons.droptanks.HB_F-4E_EXT_Center_Fuel_Tank_EMPTY"] = 1, -- Centerline Empty
@@ -556,7 +545,6 @@ return {
             ["weapons.droptanks.HB_F-4E_EXT_WingTank_R_EMPTY"] = 1, -- Right Wing Empty
         },
     },
-
     ["F-15ESE"] = {
         Rockets = {
             ["weapons.nurs.HYDRA_70_M151"] = 42,    --M151 HE
