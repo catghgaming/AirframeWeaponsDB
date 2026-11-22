@@ -1041,4 +1041,14 @@ return {
         },
     
     },
+    ["Yak-52"] = { -- Yak-52
+    Pods = {
+        ["weapons.containers.{INV-SMOKE-BLUE}"] = 1,
+        ["weapons.containers.{INV-SMOKE-GREEN}"] = 1,
+        ["weapons.containers.{INV-SMOKE-ORANGE}"] = 1,
+        ["weapons.containers.{INV-SMOKE-RED}"] = 1,
+        ["weapons.containers.{INV-SMOKE-WHITE}"] = 1,
+        ["weapons.containers.{INV-SMOKE-YELLOW}"] = 1,
+    },
+},
 }
