@@ -14,4 +14,4 @@ CMM.AirframeWeaponsDB   = dofile(AirframeWeaponsDB_PATH .. "AirframeWeaponsDB.lu
 --We will modify the weapons at Anapa
 local _WeaponTBL = {["Clusters"] = 0, ["Rockets"] = true, ["AGMissiles"] = 5000, ["AAMissiles"] = true, ["Bombs"] = true, ["LBombs"] = 500, ["GBombs"] = 150, ["GunPods"] = true, ["Pods"] = 100, ["Tanks"] = true}
 CMM.LoadAirframeWeapons(Airbase.getByName("Anapa-Vityazevo"), 100, _WeaponTBL, true)
-trigger.outText("Anapa Airbase Warehouse has been loaded!", 30)
+trigger.action.outText("Anapa Airbase Warehouse has been loaded!", 30)
